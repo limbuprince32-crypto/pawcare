@@ -35,15 +35,18 @@ const Hero = () => {
               className="w-6 h-6 rounded-full border-2 border-white object-cover"
             />
           </div>
-          <span className="text-gray-600">5000+ Happy Pet Owners</span>
+          <span className="text-gray-600">
+            <span className="text-emerald-600 font-semibold">5000+</span> Happy
+            Pet Owners
+          </span>
         </div>
         <h1
           className="text-4xl md:text-6xl font-bold leading-tight"
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Caring For Your Pets <br />
-          Like Family
+          <span className="text-green-600">Caring </span>For Your Pets <br />
+          Like<span className="text-green-600"> Family</span>
         </h1>
         <p
           className="mt-4 max-w-xl text-gray-600"
@@ -57,7 +60,7 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-delay="400"
         >
-          <button className="px-8 py-3 rounded-full bg-emerald-950 text-white shadow-2xl hover:bg-green-800 transition">
+          <button className="px-8 py-3 rounded-full bg-emerald-700 text-white shadow-2xl hover:bg-green-600 transition cursor-pointer font-semibold">
             Get Appointment
           </button>
         </div>

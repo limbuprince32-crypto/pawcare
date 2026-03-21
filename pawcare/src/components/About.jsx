@@ -48,7 +48,7 @@ const About = () => {
             <li
               className="flex items-center gap-3 text-gray-700"
               data-aos="fade-left"
-              data-aos-delay="280"
+              data-aos-delay="290"
             >
               <span className="w-3 h-3 bg-green-500 rounded-full"></span>
               Advanced Surgical & Emergency Care
@@ -56,7 +56,7 @@ const About = () => {
             <li
               className="flex items-center gap-3 text-gray-700"
               data-aos="fade-left"
-              data-aos-delay="280"
+              data-aos-delay="300"
             >
               <span className="w-3 h-3 bg-green-500 rounded-full"></span>
               Friendly & Experienced Veterinary Team

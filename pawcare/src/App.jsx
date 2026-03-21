@@ -5,6 +5,9 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Vetrrinarians from "./components/Vetrrinarians";
 import About from "./components/About";
+import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
+import Appointment from "./components/Appointment";
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -20,6 +23,9 @@ const App = () => {
       <Hero />
       <Vetrrinarians />
       <About />
+      <Services />
+      <Testimonials />
+      <Appointment />
     </div>
   );
 };

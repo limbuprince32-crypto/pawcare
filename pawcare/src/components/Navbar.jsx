@@ -4,8 +4,8 @@ import { FiX, FiMenu } from "react-icons/fi";
 const listNav = [
   { name: "Veterinarians", href: "#veterinarians" },
   { name: "About", href: "#about" },
-  { name: "Service", href: "#service" },
-  { name: "Testimonials", href: "#service" },
+  { name: "Services", href: "#services" },
+  { name: "Testimonials", href: "#testimonials" },
   { name: "Appointment", href: "#appointment" },
 ];
 const Navbar = () => {
@@ -16,11 +16,12 @@ const Navbar = () => {
         <img
           src={logo}
           alt="logo"
-          polaceholder="Pawcare logo"
+          placeholder="Pawcare logo"
           className="w-20 h-20 flex justify-between shrink-0 cursor-pointer"
         />
-        <span className="font-bold text-2xl text-green-400">
-          vet<span className="text-black">Care</span>
+        <span className="font-bold text-2xl text-emerald-500">
+          Paw {""}
+          <span className="text-black">Care</span>
         </span>
       </div>
       <ul className="hidden md:flex gap-8 text-sm text-gray-700">
@@ -36,7 +37,7 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="md:flex items-center gap-2 bg-gray-200 rounded-full p-1">
-        <button className="px-6 py-2 rounded-full text-sm font-medium text-gray-100 bg-emerald-950 cursor-pointer hover:shadow-md ">
+        <button className="px-6 py-2 rounded-full text-sm font-medium text-gray-100 bg-emerald-700 cursor-pointer hover:shadow-md ">
           Login
         </button>
         <button className="px-6 py-2 rounded-full text-sm font-medium text-gray-900 cursor-pointer hover:shadow-md hover:bg-white/50">
