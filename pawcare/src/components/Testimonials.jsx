@@ -38,7 +38,7 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="py-20 bg-emerald-950 text-white overflow-hidden"
+      className="py-20 bg-emerald-800 text-white overflow-hidden"
     >
       <div className="max-w-5xl mx-auto px-8">
         <div className="flex flex-col md:flex-row items-center gap-10">

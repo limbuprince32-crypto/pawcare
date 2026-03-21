@@ -155,7 +155,6 @@ const Services = () => {
                       Duration : {service.duration}
                     </div>
                   </div>
-                  ;
                   <div className="md:w-3/5">
                     <p className="text-gray-600 text-lg mb-6 leading-relaxed">
                       {service.desc}
