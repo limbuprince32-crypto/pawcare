@@ -99,7 +99,7 @@ const Services = () => {
   ];
   return (
     <div className="min-h-screen overflow-hidden">
-      <div id="#services" className="py-20">
+      <div id="services" className="py-20">
         <div className="text-center mb-12" data-aos="fade-up">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Our {""}
